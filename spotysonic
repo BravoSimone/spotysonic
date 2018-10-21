@@ -1,6 +1,11 @@
+#!/usr/bin/env ruby
+
 require 'bundler'
 Bundler.require
 require_relative 'airsonic'
 require_relative 'spotify'
+require_relative 'dsl'
+
+load 'configuration.ss'
 
 binding.pry
